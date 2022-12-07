@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+

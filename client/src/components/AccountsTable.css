@@ -1,0 +1,7 @@
+.btn {
+    background-color: inherit !important;
+    color: blue !important;
+    border: none !important;
+    padding: 0 !important;
+    text-decoration: underline !important;
+}
