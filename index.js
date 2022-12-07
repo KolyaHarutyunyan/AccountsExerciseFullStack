@@ -16,11 +16,7 @@ app.get("/accounts/:id", (req, res) => {
   fs.promises
     .readFile(path.resolve("accountsData.json"), "utf8")
     .then((accounts) =>
-      res.send(
-        JSON.stringify(
-          JSON.parse(accounts).find((account) => account.id === accountId)
-        )
-      )
+      res.send(JSON.parse(accounts).find((account) => account.id === accountId))
     )
     .catch((err) => res.send(err.message));
 });
